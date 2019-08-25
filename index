@@ -1,1 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA Compatible" content="ie=edge" />
+<title>Mini App</title>
+
+<style>
+
+body
+margin: 0;
+margin: 0;
+padding: 1em;
+[data-cart-info],
+[data-credit-card]
+transform: scale(0.78);
+margin-left -3.4em [data-cc-info]
+input: focus,[data-cC-digits]
+input: focus {
+outline
+none;
+}
+
+
+. mdc-card _primary-action,
+.mdc-card-primary-
+action: hover {
+cursor: auto;
+padding:20px min-height:inherit;
+[data-credit-card]
+[data-card-type] {
+width 1.5s;
+calc(100% - 130px);
+transition:margin-left:38 }
+
+margin-left:
+calc(100% - 130px);
+[data-credit-card]
+.is-visa {
+background:linear-gradient (135deg, #622774
+0%, #c53364 100%);
+[data-credit-card]
+.is-mastercard {
+background:linear-gradient
+(135deg, #65799%
+0%, #5e2563 100%);
+. is-visa
+[data-card-type],
+.is-visa
+[data-card-type],
+.is-mastercard
+[data-card-type] {
+width: auto;
+input.is -invalid,
+input {
+text-decoration:
+. is-invalid
+line-through;
+placeholder
+color: #fff;
+/* Add Your
+CSS From Here */
+</style>
+
+</head>
+<body>
+<!- your HTML
+goes here -->>
+<Script>
+Const
+supportedCards {
+visa,
+mastercard
+Const
+countries =[
+code:
+"US"
+Currency: "USD",
+currencyName: '',
+CurrencyName: ,
+COuntry:
+United States'
+code:
+"NG"
+Currency: "NGN",
+currencyName:
+"Nigeria
+country:
+Code:
+'KE'
+Currency: 'KES',
+CurrencyName: '',
+Kenya
+country:
+Kenya'
+Code:
+UG
+Currency: "UGX',
+CurrencyName:
+Country:
+Uganda"
+Code:
+'RW
+currency: 'RWF',
+currencyName:
+Rwanda
+country:
+Country:
+'Rwanda'
+COde:
+'TZ',
+Currency: "TZS"
+currencyName: '',
+'Tanzania'
+country:
+Code
+'ZA"
+currency: 'ZAR",
+CurrencyName:
+South Africa'
+COuntry:
+'South Africa"
+,
+{
+code
+'CM"
+currency: 'XAF"
+currencyName:
+COuntry
+Cameroon
+code
+GH
+currency: "GHS
+currencyName: '"
+'Ghana"
+country:
+
+CO
+'Ghana"
+Const
+billHype = () => {
+Const
+billDisplay =
+document.
+querySelector
+(.mdc-typography--
+headline4');
+if
+(IbillDisplay)
+return;
+billDisplay.
+addEventListener
+('click, () => {
+Const
+billSpan =
+document.
+DILLSPan
+document.
+queryselector ("
+[data-bill]");
+(billSpan &&
+appState.bill &&&
+appState.
+i if
+billFormatted &&
+appState.
+billFormatted ===
+billSpan.
+textContent) {
+window. speechSynthe
+sis.speak(
+new
+SpeechSynthes isUtte
+rance
+(appState.billForma
+tted)
+
+tted)
+Const
+fetchBill = () => {
+Const
+apiHost = 'https://
+randomapi.com/api';
+Const
+apiKey
+006b08a801 d82d0c98
+24dcfdfdfa3b3c ' ;
+Const
+apiEndpoint ='$
+{apiHost}/S{apiKey
+Const
+Const
+startApp () => {
+startApp();
+</script>
+</body>
+</html>
+
+
+
+
+
+
 
